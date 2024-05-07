@@ -136,6 +136,25 @@ ul {
   transform: translateZ(0);
 }
 
+.rotation-btn{
+  background-color: transparent;
+  border-radius: 30px;
+  font-size: 0.75em;
+  padding: 0.5em 1em;
+}
+.rotation-btn{
+  background-color: transparent;
+  border-radius: 30px;
+  font-size: 0.75em;
+  padding: 0.5em 1em;
+  border-width: 0.1px;
+}
+.rotation-btn:hover{
+  background-color: #000;
+  color:#fff;
+  transition: 0.25s ease-in-out;
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {

@@ -16,7 +16,7 @@ export default function Model(props) {
   });
 
   return (
-    <mesh position={[0, -1.05, -1.5]}>
+    <mesh position={[-0.3, -1.55, -1.5]}>
       <group ref={group} {...props} dispose={null}>
         <group name="Scene">
           <group name="Armature002" rotation={[Math.PI / 2, 0, 0]}>
